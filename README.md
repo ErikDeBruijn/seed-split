@@ -83,7 +83,9 @@ of, ideally in tamper-evident storage.
 - When using an envelope, these tips may be useful to secure the envelope:
   http://www.wikihow.com/Secure-an-Envelope
 - Distribute the envelopes
-- Remove the generated files "component-I-decrypt.txt" and "encryption-cypher.txt"
+- Remove the generated files "component-I-decrypt.txt" and "encryption-cypher.txt".
+  On most computers, a file is put in the trashbin or "unlinked" but it stays on
+  disk. There's secure remove for that. On OS X `rm -P file.txt` will overwrite the file with zeros before unlinking it. 
 
 Optional steps:
 - You can repeat the process, so that you have some redundancy so that for 
